@@ -346,7 +346,7 @@ export type Endpoints = {
 	'hashtags/users': { req: TODO; res: TODO; };
 
 	// i
-	'i': { req: NoParams; res: User; };
+	'i': { req: NoParams; res: UserDetailed; };
 	'i/apps': { req: TODO; res: TODO; };
 	'i/authorized-apps': { req: TODO; res: TODO; };
 	'i/change-password': { req: TODO; res: TODO; };
